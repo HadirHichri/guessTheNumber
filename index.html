@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devine le Nombre !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Devine le Nombre Secret !</h1>
+        <p>J'ai choisi un nombre entre 1 et 100. À vous de le trouver !</p>
+
+        <div class="game-area">
+            <input type="number" id="guessInput" placeholder="Entrez votre nombre">
+            <button id="submitGuess">Proposer</button>
+        </div>
+
+        <div class="result-area">
+            <p id="message"></p>
+            <p>Tentatives restantes : <span id="attempts">10</span></p>
+        </div>
+
+        <button id="resetButton" class="hidden">Rejouer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

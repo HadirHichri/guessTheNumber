@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Fond très sombre, presque noir */
+    background-color: #1a1122; 
+    color: #e0e0e0; /* Texte clair */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    /* Fond de la carte légèrement plus clair */
+    background-color: #2e203f;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7); /* Ombre plus marquée */
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    /* Violet vif (couleur principale) */
+    color: #9e60ea; 
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.game-area {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+input[type="number"] {
+    padding: 12px;
+    /* Bordure assortie au violet vif */
+    border: 2px solid #9e60ea;
+    border-radius: 5px;
+    /* Fond de l'input plus sombre que la carte */
+    background-color: #3f305a; 
+    color: #e0e0e0;
+    width: 150px;
+    text-align: center;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #c48cff; /* Violet encore plus clair au focus */
+}
+
+input[type="number"]::placeholder {
+    color: #a0a0a0;
+}
+
+button {
+    /* Fond des boutons en violet */
+    background-color: #9e60ea;
+    color: white; 
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;}
